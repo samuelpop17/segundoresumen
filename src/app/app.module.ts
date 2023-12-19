@@ -10,6 +10,7 @@ import { EspecificacionesComponent } from './components/especificaciones/especif
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './components/footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
