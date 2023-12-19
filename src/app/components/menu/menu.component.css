@@ -1,0 +1,13 @@
+
+
+:root {
+  --color-primario: #007bff; /* Azul */
+  --color-secundario: #6c757d; /* Gris */
+  --color-fondo: #f8f9fa; /* Blanco ahumado */
+  --color-texto: #343a40; /* Texto oscuro */
+}
+
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
