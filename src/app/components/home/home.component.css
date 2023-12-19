@@ -1,0 +1,82 @@
+.bg-image {
+    background-image: url('https://i.ibb.co/2dcpRYy/pexels-eberhard-grossgasteiger-1612353.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+  }
+  
+  body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #34495e;
+    letter-spacing: 1.2px;
+  }
+  
+  .container {
+    width: 90vw; /* Cambié el valor para hacerlo más ancho en pantallas pequeñas */
+    max-width: 400px; /* Establecí un ancho máximo para evitar que sea demasiado ancho en pantallas grandes */
+    padding: 50px 20px; /* Reduje el relleno para pantallas más pequeñas */
+    background: rgba(228, 222, 208, 0.3);
+    color: #fff;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  input,
+  textarea
+   {
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(231, 231, 231, 0.5);
+    box-sizing: border-box;
+    color: #181619;
+    outline: none;
+    &::placeholder {
+      color: #181619;
+    }
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: bold;
+    background: #2c3e50;
+    border: none;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 0.15s ease;
+    position: relative;
+    top: 0;
+    &:hover {
+      color: rgba(255, 255, 255, 0.9);
+      box-shadow: 0 6px 10px 2px rgba(0, 0, 0, 0.3);
+    }
+    &:active {
+      top: 2px;
+    }
+  }
+  
+  p {
+    text-align: right;
+    a {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.75rem;
+      transition: all 0.15s ease;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+  
