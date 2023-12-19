@@ -8,13 +8,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { EspecificacionesComponent } from './components/especificaciones/especificaciones.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     HomeComponent,
-    EspecificacionesComponent
+    EspecificacionesComponent,
+    FooterComponent
   
   ],
   imports: [
