@@ -4,7 +4,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { routing, appRoutingProviders } from './app.routing';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { EspecificacionesComponent } from './components/especificaciones/especificaciones.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
@@ -17,7 +17,7 @@ import { FooterComponent } from './components/footer/footer.component';
     MenuComponent,
     HomeComponent,
     EspecificacionesComponent,
-    FooterComponent
+    FooterComponent,
   
   ],
   imports: [
@@ -25,7 +25,8 @@ import { FooterComponent } from './components/footer/footer.component';
     routing,
     FormsModule,
     HttpClientModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule
   ],
   providers: [appRoutingProviders],
   bootstrap: [AppComponent]
