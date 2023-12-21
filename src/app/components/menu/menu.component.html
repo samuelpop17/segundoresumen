@@ -1,40 +1,31 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #E4DED0;">
-    <a class="navbar-brand" href="#" style="margin-right: 10%; margin-left: 20%;">
-      <img src="https://i.ibb.co/8s5hY8b/logo-Domotica.png" alt="Logo" height="80">
-    </a>
-    <button class="navbar-toggler w-auto" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#" style="color: #ABCCBD; font-size: 18px; font-weight: bold;">Inicio</a>
-        </li>
-        <li ngbDropdown class="nav-item dropdown">
-          <a ngbDropdownToggle class="nav-link dropdown-toggle" href="#" style="color: #7DBEB8; font-size: 18px; font-weight: bold;">
-            Servicios
-          </a>
-          <div ngbDropdownMenu>
-            <a class="dropdown-item" href="#">Iluminación</a>
-            <a class="dropdown-item" href="#">Persianas, Toldos y Estores</a>
-            <a class="dropdown-item" href="#">Climatización</a>
-            <a class="dropdown-item" href="#">Multimedia</a>
-            <a class="dropdown-item" href="#">Seguridad</a>
-            <a class="dropdown-item" href="#">Energía</a>
-            <a class="dropdown-item" href="#">Riego</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" style="color: #7DBEB8; font-size: 18px; font-weight: bold;" routerLink="espe">Proyectos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" style="color: #7DBEB8; font-size: 18px; font-weight: bold;">Blog</a>
-        </li>
-        
+<nav class="nav">
+  <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+  <label for="nav__checkbox" class="nav__toggle">
+    <img src="https://img.icons8.com/material-outlined/30/000000/menu--v1.png" class="hamburger" />
+    <img src="https://img.icons8.com/plumpy/30/000000/x.png" class="close" />
+  </label>
+
+  <ul class="nav__menu">
+    <li>
+      <a href="#">
+        <img src="https://i.ibb.co/8s5hY8b/logo-Domotica.png" height="70" />
+      </a>
+    </li>
+    <li><a class="nav-link" href="#" style="color: #ABCCBD; font-size: 18px; font-weight: bold;">Inicio</a></li>
+    <li>
+      <a href="#" id="portfolio">Portfolio</a>
+      <ul class="children">
+        <li><a href="#">Iluminación</a></li>
+        <li><a href="#">Persianas, Toldos y Estores</a></li>
+        <li><a href="#">Climatización</a></li>
+        <li><a href="#">Multimedia</a></li>
+        <li><a href="#">Seguridad</a></li>
+        <li><a href="#">Energía</a></li>
+        <li><a href="#">Riego</a></li>
+        <li><a href="#">Servicio eléctrico</a></li>
       </ul>
-    </div>
-  </nav>
-  
-
-
+    </li>
+    <li><a class="nav-link" href="#" style="color: #7DBEB8; font-size: 18px; font-weight: bold;" routerLink="espe">Proyectos</a></li>
+    <li><a class="nav-link" href="#" style="color: #7DBEB8; font-size: 18px; font-weight: bold;">Blog</a></li>
+  </ul>
+</nav>

@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 120vb;
   }
   
   body {
@@ -20,7 +20,7 @@
     width: 90vw; /* Cambié el valor para hacerlo más ancho en pantallas pequeñas */
     max-width: 400px; /* Establecí un ancho máximo para evitar que sea demasiado ancho en pantallas grandes */
     padding: 50px 20px; /* Reduje el relleno para pantallas más pequeñas */
-    background: rgba(228, 222, 208, 0.3);
+    background: rgba(122, 121, 118, 0.645);
     color: #fff;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
   }
@@ -80,4 +80,18 @@
       }
     }
   }
-  
+
+  .contact{
+    text-align: center;
+    color: #83d3af
+  }
+  .conslo{
+    width: 60%;
+    margin: 0 auto; 
+    margin-bottom: 3.5%;
+  }
+  .slogan{
+    text-align: center;
+    color: #83d3af;
+    
+  }
