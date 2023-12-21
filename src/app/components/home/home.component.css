@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 120vb;
+    height: 115vb;
   }
   
   body {
@@ -95,3 +95,10 @@
     color: #83d3af;
     
   }
+
+  @media only screen and (max-width: 450px) {
+    .bg-image {
+      height: 145vb;
+    }
+  }
+ 
