@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "verdana", sans-serif;
+  
   color: grey;
 }
 .nav {
   border-bottom: 1px solid grey;
   background-color: #E4DED0;
+  font-family: 'IBM Plex Mono', monospace;
 }
 .nav__toggle {
   position: absolute;
