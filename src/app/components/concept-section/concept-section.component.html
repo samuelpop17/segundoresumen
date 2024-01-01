@@ -1,0 +1,15 @@
+<!-- app.component.html -->
+
+<div class="container">
+    <div *ngFor="let concept of dictionary | keyvalue" class="entry">
+      <div class="left">
+        <img [src]="concept.value.imageUrl" alt="Image">
+      </div>
+      <div class="right">
+        <h2>{{ concept.value.field1 }}</h2>
+        <p>{{ concept.value.field2 }}</p>
+        
+      </div>
+    </div>
+  </div>
+  

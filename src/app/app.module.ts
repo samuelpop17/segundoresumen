@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { EspecificacionesComponent } from './components/especificaciones/especificaciones.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './components/footer/footer.component';
+import { ConceptSectionComponent } from './components/concept-section/concept-section.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { FooterComponent } from './components/footer/footer.component';
     HomeComponent,
     EspecificacionesComponent,
     FooterComponent,
+    ConceptSectionComponent,
   
   ],
   imports: [

@@ -1,0 +1,69 @@
+/* app.component.css */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+      text-align: center;
+  }
+  
+  .entry {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .left {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .left img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .right {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .right h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .right p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .entry {
+      flex-direction: column;
+      width: 90%;
+    }
+  
+    .left {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
