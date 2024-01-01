@@ -10,14 +10,17 @@ import { Component, ViewChild, ElementRef } from '@angular/core';
 export class HomeComponent{
 
   
-
+  @ViewChild('nombre') cajanombre!: ElementRef;
+  @ViewChild('correo') cajacorreo!: ElementRef;
+  @ViewChild('numero') cajanumero!: ElementRef;
+  @ViewChild('comentarios') cajacomentarios!: ElementRef;
 
   public sendEmail(e: Event) {
     e.preventDefault();
     emailjs.sendForm('service_rv7bykp', 'template_wwpuvrj', e.target as HTMLFormElement, 'ExPSrGwO6SCA_y1bA')
       .then((result: EmailJSResponseStatus) => {
         console.log(result.text);
-        
+        this.reiniciarForm()
       }, (error) => {
         console.log(error.text);
       });
@@ -29,6 +32,11 @@ export class HomeComponent{
       });
   }
   
- 
+ reiniciarForm(){
+this.cajanombre.nativeElement.value="";
+this.cajacorreo.nativeElement.value="";
+this.cajanumero.nativeElement.value="";
+this.cajacomentarios.nativeElement.value="";
+ }
 
 }
