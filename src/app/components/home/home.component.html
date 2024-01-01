@@ -1,78 +1,34 @@
 <!-- image-form.component.html -->
-<div>
-  <div class="bg-image" style="padding-top: 50px;">
-    <div class="conslo">  <h2 class="slogan">Convierte tu hogar en un espacio inteligente. Domótica: donde la comodidad y la tecnología se encuentran en cada rincón de tu vida diaria.</h2></div>
-  
-      <div class="container">
-          <h2 class="contact">Contactenos a traves del formulario</h2>
-            <form #heroForm="ngForm" (submit)="sendEmail($event)">
-              <div class="form-group">
-                <label for="nombre" style="color: #83d3af;">Nombre:</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" #nombre name="nombre" >
-              </div>
-              <div class="form-group">
-                <label for="correo" style="color: #83d3af;">Correo electrónico:</label>
-                <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" #correo  name="correo">
-              </div>
-              <div class="form-group">
-                <label for="numero" style="color: #83d3af;">Número de teléfono:</label>
-                <input type="tel" class="form-control" id="numero" placeholder="Ingrese su número de teléfono" #numero name="numero">
-              </div>
-              <div class="form-group">
-                <label for="comentarios" style="color: #83d3af;">Observaciones:</label>
-                <textarea class="form-control" id="comentarios" rows="3" placeholder="Ingrese sus comentarios" #comentarios  name="comentarios"></textarea>
-              </div>
-              <button type="submit" (click)="heroForm.resetForm()" class="btn btn-primary btn-block" style="background-color: #ABCCBD; border-color: #ABCCBD;">Enviar</button>
-            </form>
-          
-      </div>
-  
+
+<div class="bg-image" style="padding-top: 50px;">
+  <div class="conslo">  <h2 class="slogan">Convierte tu hogar en un espacio inteligente. Domótica: donde la comodidad y la tecnología se encuentran en cada rincón de tu vida diaria.</h2></div>
+
+    <div class="container">
+        <h2 class="contact">Contactenos a traves del formulario</h2>
+          <form #heroForm="ngForm" (submit)="sendEmail($event)">
+            <div class="form-group">
+              <label for="nombre" style="color: #83d3af;">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre"  name="nombre" >
+            </div>
+            <div class="form-group">
+              <label for="correo" style="color: #83d3af;">Correo electrónico:</label>
+              <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico"  name="correo">
+            </div>
+            <div class="form-group">
+              <label for="numero" style="color: #83d3af;">Número de teléfono:</label>
+              <input type="tel" class="form-control" id="numero" placeholder="Ingrese su número de teléfono"  name="numero">
+            </div>
+            <div class="form-group">
+              <label for="comentarios" style="color: #83d3af;">Observaciones:</label>
+              <textarea class="form-control" id="comentarios" rows="3" placeholder="Ingrese sus comentarios"  name="comentarios"></textarea>
+            </div>
+            <button type="submit" (click)="heroForm.resetForm()" class="btn btn-primary btn-block" style="background-color: #ABCCBD; border-color: #ABCCBD;">Enviar</button>
+          </form>
+        
     </div>
-    <div class="restocont">
-      <h1>Que podemos ofrecer: </h1>
-  
-  
-  
-  
-  
-      <div class="flexbox">
-        <div class="flexcard flexcardGreen">
-            <div class="flexcardNumber flexcardNumberGreen">01</div>
-            <div class="flex flexcardTitle">Title</div>
-            <div class="flex flexcardText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
-                temporibus consectetur? Iure id nam fuga asperiores repellat accusantium exercitationem nemo? </div>
-            <div class="flex flexcardImg"><img class="flexcardimgItem"
-                    src="https://cdn.pixabay.com/photo/2017/01/10/23/01/seo-1970475_960_720.png" alt=""></div>
-        </div>
-        <div class="flexcard flexcardBlue">
-            <div class="flexcardNumber flexcardNumberBlue">02</div>
-            <div class="flex flexcardTitle">Title</div>
-            <div class="flex flexcardText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
-                temporibus consectetur? Iure id nam fuga asperiores repellat accusantium exercitationem nemo?</div>
-            <div class="flex flexcardImg"><img class="flexcardimgItem"
-                    src="https://cdn.pixabay.com/photo/2017/01/10/23/01/seo-1970475_960_720.png" alt=""></div>
-        </div>
-        <div class="flexcard flexcardOrange">
-            <div class="flexcardNumber flexcardNumberOrange">03</div>
-            <div class="flex flexcardTitle">Title</div>
-            <div class="flex flexcardText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
-                temporibus consectetur? Iure id nam fuga asperiores repellat accusantium exercitationem nemo?</div>
-            <div class="flex flexcardImg"><img class="flexcardimgItem"
-                    src="https://cdn.pixabay.com/photo/2017/01/10/23/01/seo-1970475_960_720.png" alt=""></div>
-        </div>
-        <div class="flexcard flexcardPink">
-            <div class="flexcardNumber flexcardNumberPink">04</div>
-            <div class="flex flexcardTitle">Title</div>
-            <div class="flex flexcardText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae,
-                temporibus consectetur? Iure id nam fuga asperiores repellat accusantium exercitationem nemo?</div>
-            <div class="flex flexcardImg"><img class="flexcardimgItem"
-                    src="https://cdn.pixabay.com/photo/2017/01/10/23/01/seo-1970475_960_720.png" alt=""></div>
-        </div>
-  
-  
-  
-  
-  
-  
-    </div>
+
   </div>
+  <div>
+    <h1>Que te podemos ofrecer</h1>
+  </div>
+  
