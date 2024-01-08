@@ -4,21 +4,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    width: 100%;
     flex-direction: column;
       text-align: center;
   }
   
   .entry {
     display: flex;
-    width: 80%;
-    max-width: 1200px;
+    width: 100%;
+    
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    background-color: #a7abab;
   }
   
   .left {

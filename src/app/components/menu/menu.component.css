@@ -4,12 +4,14 @@ body {
   padding: 0;
   box-sizing: border-box;
   
-  color: grey;
+  color: #00a8c6;
 }
 .nav {
   border-bottom: 1px solid grey;
-  background-color: #E4DED0;
+  background-color: #edeceb;
   font-family: 'IBM Plex Mono', monospace;
+  width: 100%;
+  position: fixed;
 }
 .nav__toggle {
   position: absolute;
@@ -55,7 +57,7 @@ li:first-child {
   display: block;
 }
 .children {
-  color: #ABCCBD;
+  color: #00a8c6;
   display: none;
   position: absolute;
   background-color: #e4ded0e2;
@@ -66,7 +68,7 @@ li:first-child {
 
 .nav__menu li:hover .children {
   display: block;
-  color: #ABCCBD;
+  color: #00a8c6;
   border-radius: 10px;
   
 }
@@ -77,17 +79,17 @@ li:first-child {
   border-radius: 10px;
 }
 .children li a{
-  color: #181619;
+  color: #00a8c6;
   font-weight: bold
 }
 
 .children li a:hover {
   border-bottom: #7DBEB8 2px solid;
-  color: #e32f21;
+  color: #00a8c6;
   transition: all .3s;
 }
 #portfolio{
-  color: #7DBEB8;
+  color: #00a8c6;
   font-size: 18px; font-weight: bold
 
 }

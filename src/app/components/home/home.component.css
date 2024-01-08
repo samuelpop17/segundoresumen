@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .bg-image {
-    background-image: url('https://i.ibb.co/2dcpRYy/pexels-eberhard-grossgasteiger-1612353.jpg');
+    background-image: url('https://i.ibb.co/FHngjY8/house-1867187-1920.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 115vb;
   }
+
+
   
   body {
     font-family: sans-serif;
@@ -20,11 +22,13 @@
   
   .container {
     width: 90vw; /* Cambié el valor para hacerlo más ancho en pantallas pequeñas */
-    max-width: 400px; /* Establecí un ancho máximo para evitar que sea demasiado ancho en pantallas grandes */
-    padding: 50px 20px; /* Reduje el relleno para pantallas más pequeñas */
-    background: rgba(122, 121, 118, 0.645);
+    max-width: 600px; /* Establecí un ancho máximo para evitar que sea demasiado ancho en pantallas grandes */
+    padding: 80px 30px; /* Reduje el relleno para pantallas más pequeñas */
+    
     color: #fff;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    margin-top: 150px;
+    background-color: #dfdfdf53;
+    border-radius: 15px;
   }
   
   input,
@@ -35,7 +39,7 @@
     margin-bottom: 15px;
     padding: 10px 12px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    background: rgba(231, 231, 231, 0.5);
+    background: rgba(255, 255, 255, 0.916);
     box-sizing: border-box;
     color: #181619;
     outline: none;
@@ -61,7 +65,7 @@
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
     color: rgba(255, 255, 255, 0.7);
     transition: all 0.15s ease;
-    position: relative;
+    
     top: 0;
     &:hover {
       color: rgba(255, 255, 255, 0.9);
@@ -88,18 +92,9 @@
 
   .contact{
     text-align: center;
-    color: #83d3af
+    color: #edeceb;
   }
-  .conslo{
-    width: 60%;
-    margin: 0 auto; 
-    margin-bottom: 3.5%;
-  }
-  .slogan{
-    text-align: center;
-    color: #83d3af;
-    
-  }
+ 
 
   @media only screen and (max-width: 450px) {
     .bg-image {
@@ -108,8 +103,8 @@
   }
   .restocont{
 
-    height: auto;
-    background-color: #f3f5f7;
+    height: 100%;
+    background-color: #edeceb;
     padding-bottom: 100px;
 
   }
