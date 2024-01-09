@@ -1,10 +1,11 @@
 <!-- image-form.component.html -->
 <div>
-  <div class="bg-image" style="padding-top: 40px;">
+  <div class="bg-image" style="padding-top: 1px;">
     
     
   
       <div class="container">
+        <p class="itala">Instalamos tú Domótica en Casa</p>
           <h2 class="contact">Contactenos a traves del formulario</h2>
             <form #heroForm="ngForm" (submit)="sendEmail($event)">
               <div class="form-group">
@@ -23,14 +24,14 @@
                 <label for="comentarios" style="color: #ffffff;">Observaciones:</label>
                 <textarea class="form-control" id="comentarios" rows="3" placeholder="Ingrese sus comentarios" #comentarios  name="comentarios"></textarea>
               </div>
-              <button type="submit" (click)="heroForm.resetForm()" class="btn btn-primary btn-block" style="background-color: #ABCCBD; border-color: #ABCCBD;">Enviar</button>
+              <button type="submit" (click)="heroForm.resetForm()" class="btn btn-primary btn-block" style="background-color: #3ebbd2; border-color: #00a8c6;">Enviar</button>
             </form>
           
       </div>
       
     </div>
     <div class="restocont">
-      <h1>Que podemos ofrecer: </h1>
+      <p>Que podemos ofrecer: </p>
       <app-concept-section></app-concept-section>
     </div>
   
