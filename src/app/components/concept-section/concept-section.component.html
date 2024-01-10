@@ -1,15 +1,25 @@
-<!-- app.component.html -->
 
-<div class="container">
-    <div *ngFor="let concept of dictionary | keyvalue" class="entry">
-      <div class="left">
-        <img [src]="concept.value.imageUrl" alt="Image">
-      </div>
-      <div class="right">
-        <h2>{{ concept.value.field1 }}</h2>
-        <p>{{ concept.value.field2 }}</p>
-        
+
+
+  <div class="box-container">
+    <div class="box-item" *ngFor="let concept of dictionary | keyvalue">
+      <div class="flip-box">
+        <div class="flip-box-front text-center"
+          style="background-image: url({{concept.value.imageUrl}});">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">{{ concept.value.field1 }}</h3>
+            <p>{{ concept.value.field2 }}</p>
+            <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
+          </div>
+        </div>
+        <div class="flip-box-back text-center"
+          style="background-image: url({{concept.value.imageUrl}});">
+          <div class="inner color-white">
+            <h3 class="flip-box-header">Never Sleeps</h3>
+            <p>A short sentence describing this callout is.</p>
+            <button class="flip-box-button">Learn More</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  
