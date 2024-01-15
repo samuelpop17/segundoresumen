@@ -6,10 +6,10 @@ import { MenuComponent } from './components/menu/menu.component';
 import { routing, appRoutingProviders } from './app.routing';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
-import { EspecificacionesComponent } from './components/especificaciones/especificaciones.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './components/footer/footer.component';
 import { ConceptSectionComponent } from './components/concept-section/concept-section.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 
 @NgModule({
@@ -17,9 +17,9 @@ import { ConceptSectionComponent } from './components/concept-section/concept-se
     AppComponent,
     MenuComponent,
     HomeComponent,
-    EspecificacionesComponent,
     FooterComponent,
     ConceptSectionComponent,
+    ProyectosComponent,
   
   ],
   imports: [
