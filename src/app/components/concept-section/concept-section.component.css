@@ -27,6 +27,9 @@ body {
   flex-wrap: wrap;
 }
 
+.oscurecer img {
+  filter: brightness(0.7) saturate(0.5); /* Ajusta los valores según lo oscuro que desees la imagen */
+}
 .box-item {
   position: relative;
   -webkit-backface-visibility: hidden;

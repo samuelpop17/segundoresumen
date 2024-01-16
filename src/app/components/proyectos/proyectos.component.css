@@ -179,3 +179,18 @@
     width: 290px;
   }
 }
+
+.restocont p{
+  padding-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+
+
+}
+
+.restocont {
+  text-align: center;
+    width: 100%;
+    padding-bottom:30px ;
+}

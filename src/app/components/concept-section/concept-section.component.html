@@ -1,23 +1,23 @@
 
 
 
-  <div class="box-container">
-    <div class="box-item" *ngFor="let concept of dictionary | keyvalue">
-      <div class="flip-box">
-        <div class="flip-box-front text-center"
+  <div class="box-container ">
+    <div class="box-item " *ngFor="let concept of dictionary | keyvalue">
+      <div class="flip-box ">
+        <div class="flip-box-front text-center oscurecer"
           style="background-image: url({{concept.value.imageUrl}});">
-          <div class="inner color-white">
+          <div class="inner color-white ">
             <h3 class="flip-box-header">{{ concept.value.field1 }}</h3>
             <p>{{ concept.value.field2 }}</p>
             <img src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png" alt="" class="flip-box-img">
           </div>
         </div>
-        <div class="flip-box-back text-center"
+        <div class="flip-box-back text-center oscurecer"
           style="background-image: url({{concept.value.imageUrl}});">
-          <div class="inner color-white">
-            <h3 class="flip-box-header">Never Sleeps</h3>
-            <p>A short sentence describing this callout is.</p>
-            <button class="flip-box-button">Learn More</button>
+          <div class="inner color-white oscurecer">
+            
+            <p>{{concept.value.field3}}</p>
+            
           </div>
         </div>
       </div>
