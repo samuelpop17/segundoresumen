@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./concept-section.component.css']
 })
 export class ConceptSectionComponent {
+
   dictionary = {
     concept1: { 
       imageUrl: 'https://i.ibb.co/wyLpkFP/b160ae42-c014-4425-a073-0b54e6d5f260.jpg',

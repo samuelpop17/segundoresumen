@@ -140,6 +140,50 @@
 
 
 
+.containerquienes {
+  display: flex;
+  height: 100%;
+}
+
+.left-band,
+.right-band {
+  flex: 1;
+  background-color: #ffffff; /* color de las bandas */
+}
+
+.content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+.content p {
+   /* color del texto */
+  font-size: 1.2em;
+}
+
+/* Media query para dispositivos móviles o pantallas pequeñas */
+@media (max-width: 768px) {
+  .containerquienes {
+    flex-direction: column;
+  }
+
+  .left-band,
+  .right-band {
+    flex: none;
+    height: 50px; /* Altura de las bandas en dispositivos móviles */
+  }
+
+  .content {
+    flex: 1;
+  }
+}
 
 
 

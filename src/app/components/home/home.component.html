@@ -1,63 +1,84 @@
 <!-- image-form.component.html -->
 <div>
   <div class="bg-image" style="padding-top: 1px;">
-    
-    
-  
-      <div class="container">
-        <p class="itala">Instalamos tú Domótica en Casa</p>
-          <h2 class="contact">Contactenos a traves del formulario</h2>
-            <form #heroForm="ngForm" (submit)="sendEmail($event)">
-              <div class="form-group">
-                <label for="nombre" style="color: #ffffff;">Nombre:</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" #nombre name="nombre" >
-              </div>
-              <div class="form-group">
-                <label for="correo" style="color: #ffffff;">Correo electrónico:</label>
-                <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" #correo  name="correo">
-              </div>
-              <div class="form-group">
-                <label for="numero" style="color: #ffffff;">Número de teléfono:</label>
-                <input type="tel" class="form-control" id="numero" placeholder="Ingrese su número de teléfono" #numero name="numero">
-              </div>
-              <div class="form-group">
-                <label for="comentarios" style="color: #ffffff;">Observaciones:</label>
-                <textarea class="form-control" id="comentarios" rows="3" placeholder="Ingrese sus comentarios" #comentarios  name="comentarios"></textarea>
-              </div>
-              <button type="submit" (click)="heroForm.resetForm()" class="btn btn-primary btn-block" style="background-color: #3ebbd2; border-color: #00a8c6;">Enviar</button>
-            </form>
-          
-      </div>
-      
+
+
+
+    <div class="container">
+      <p class="itala">Instalamos tú Domótica en Casa</p>
+      <h2 class="contact">Contactenos a traves del formulario</h2>
+      <form #heroForm="ngForm" (submit)="sendEmail($event)">
+        <div class="form-group">
+          <label for="nombre" style="color: #ffffff;">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" #nombre name="nombre">
+        </div>
+        <div class="form-group">
+          <label for="correo" style="color: #ffffff;">Correo electrónico:</label>
+          <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo electrónico" #correo
+            name="correo">
+        </div>
+        <div class="form-group">
+          <label for="numero" style="color: #ffffff;">Número de teléfono:</label>
+          <input type="tel" class="form-control" id="numero" placeholder="Ingrese su número de teléfono" #numero
+            name="numero">
+        </div>
+        <div class="form-group">
+          <label for="comentarios" style="color: #ffffff;">Observaciones:</label>
+          <textarea class="form-control" id="comentarios" rows="3" placeholder="Ingrese sus comentarios" #comentarios
+            name="comentarios"></textarea>
+        </div>
+        <button type="submit" (click)="heroForm.resetForm()" class="btn btn-primary btn-block"
+          style="background-color: #3ebbd2; border-color: #00a8c6;">Enviar</button>
+      </form>
+
     </div>
-    <div class="restocont">
-      
-      <p>Que podemos ofrecer </p>
-      <hr>
-      <app-concept-section></app-concept-section>
-      <hr>
 
-      
-<div class="quienessomos">
-  <p>Quienes Somos</p>
-      <h4>Domótica Integrada es una sociedad que presta servicios de ingeniería en la integración de nuevas tecnologías Domóticas (viviendas) e Inmóticas (edificios). <br>
-
-        En Domótica Integrada trabajamos, entre otros, con el standar KNX, el sistema más robusto, fiable y flexible en el sector domótico actualmente. Gracias a este standar conseguimos que todos los dispositivos electrónicos de tu casa y/u oficina trabajen en conjunto y al unísono para proporcionarte una vida más cómoda y segura.<br>
-        
-        Aplicamos nuestros amplios conocimientos en materia de ahorro energético para dar soluciones domóticas e inmóticas que supongan una disminución en los costes de los diferentes consumos energéticos (electricidad, gas, agua…)
-        
-        En Domótica Integrada utilizamos la más moderna tecnología, siempre explorando los nuevos sistemas emergentes en el mercado para poder ampliar nuestro propio conocimiento y ponerlo al servicio de las necesidades de nuestros clientes.</h4>
-    <hr>
-        <p>Domoticas Integradas Aranjuez</p>
-    
-        <img class="logo" src="https://i.ibb.co/8s5hY8b/logo-Domotica.png" height="100">
-
-      
-        
-        
-      </div>
-
-      
-   
   </div>
-  
+  <div class="restocont">
+
+    <p>Que podemos ofrecer </p>
+    <hr>
+    <app-concept-section></app-concept-section>
+    <hr>
+
+
+
+    <div class="containerquienes">
+      <div class="left-band"></div>
+      <div class="content">
+        <h1>Quienes Somos</h1>
+        <p>Domótica Integrada es una sociedad que presta servicios de ingeniería en la integración de nuevas tecnologías
+          Domóticas (viviendas) e Inmóticas (edificios). <br>
+
+          En Domótica Integrada trabajamos, entre otros, con el standar KNX, el sistema más robusto, fiable y flexible
+          en el sector domótico actualmente. Gracias a este standar conseguimos que todos los dispositivos electrónicos
+          de tu casa y/u oficina trabajen en conjunto y al unísono para proporcionarte una vida más cómoda y segura.<br>
+
+          Aplicamos nuestros amplios conocimientos en materia de ahorro energético para dar soluciones domóticas e
+          inmóticas que supongan una disminución en los costes de los diferentes consumos energéticos (electricidad,
+          gas, agua…)
+
+          En Domótica Integrada utilizamos la más moderna tecnología, siempre explorando los nuevos sistemas emergentes
+          en el mercado para poder ampliar nuestro propio conocimiento y ponerlo al servicio de las necesidades de
+          nuestros clientes.</p>
+      </div>
+      <div class="right-band"></div>
+    </div>
+
+
+
+    <div class="quienessomos">
+
+
+      <p>Domoticas Integradas Aranjuez</p>
+
+      <img class="logo" src="https://i.ibb.co/8s5hY8b/logo-Domotica.png" height="100">
+
+
+
+
+    </div>
+
+
+
+  </div>
