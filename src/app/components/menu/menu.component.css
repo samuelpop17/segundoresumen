@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
   color: #00a8c6;
-}
-
-.logo{
-   
 }
 
 .nav {
@@ -19,6 +15,7 @@ body {
   position: fixed;
   z-index: 1000;
 }
+
 .nav__toggle {
   position: absolute;
   cursor: pointer;
@@ -30,9 +27,11 @@ body {
 input[type="checkbox"] {
   display: none;
 }
+
 .hamburger {
   margin-top: 0.2rem;
 }
+
 .nav__menu {
   display: flex;
   flex-direction: column;
@@ -40,28 +39,24 @@ input[type="checkbox"] {
   align-items: center;
   margin: 1rem;
 }
+
 li {
   list-style: none;
   display: none;
+  position: relative;
 }
+
 li:first-child {
   margin-right: auto;
   display: block;
 }
+
 .nav__menu a {
   text-decoration: none;
   color: initial;
   font-size: 1.2rem;
 }
-#nav__checkbox:checked ~ ul.nav__menu li {
-  display: block;
-}
-#nav__checkbox:checked ~ label.nav__toggle .hamburger {
-  display: none;
-}
-#nav__checkbox:checked ~ label.nav__toggle .close {
-  display: block;
-}
+
 .children {
   color: #00a8c6;
   display: none;
@@ -69,24 +64,22 @@ li:first-child {
   background-color: #edeceb;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  
 }
 
 .nav__menu li:hover .children {
   display: block;
   color: #00a8c6;
   border-radius: 10px;
-  
 }
 
-.children li  {
+.children li {
   padding: 10px;
-  
   border-radius: 10px;
 }
-.children li a{
+
+.children li a {
   color: #00a8c6;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .children li a:hover {
@@ -94,18 +87,22 @@ li:first-child {
   color: #00a8c6;
   transition: all .3s;
 }
-#portfolio{
-  color: #00a8c6;
-  font-size: 18px; font-weight: bold
 
+#portfolio {
+  color: #00a8c6;
+  font-size: 18px;
+  font-weight: bold;
 }
+
 @media only screen and (min-width: 768px) {
   .nav__toggle {
     display: none;
   }
+
   .nav__menu {
     flex-direction: row;
   }
+
   .nav__menu li {
     display: block;
   }
